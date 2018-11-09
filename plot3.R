@@ -19,5 +19,4 @@
         points(data$rtime,data$Sub_metering_3, type = "l", col = "green")
         legend("topright", legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), pch = 20, col = c("black","blue","green"))
         
-        plot(data$rtime, data$Voltage, type = "l",  xlab = "", ylab = "Voltage")
     dev.off()
